@@ -73,5 +73,5 @@ Add your screenshot here, for example:
 
 ## Author
 
-* Frontend Mentor: [https://www.frontendmentor.io/profile/your-username](https://www.frontendmentor.io/profile/your-username)
+* Frontend Mentor: [https://www.frontendmentor.io/profile/VictorVasquezZT2005](https://www.frontendmentor.io/profile/VictorVasquezZT2005)
 * GitHub: [https://github.com/VictorVasquezZT2005](https://github.com/VictorVasquezZT2005)
