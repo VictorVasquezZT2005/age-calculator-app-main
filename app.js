@@ -33,7 +33,6 @@ function validateForm(day, month, year) {
   const currentYear = new Date().getFullYear();
   const minYear = currentYear - 100;
 
-  // Required checks
   if (!day) {
     showError(fields[0], "This field is required");
     valid = false;
@@ -104,7 +103,7 @@ function calculateAge(day, month, year) {
   return { years: ageY, months: ageM, days: ageD };
 }
 
-function animateNumber(element, finalValue, duration = 800) {
+function animateNumber(element, finalValue, duration = 1000) {
   let start = 0;
   const increment = finalValue / (duration / 16);
 
