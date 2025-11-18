@@ -1,3 +1,11 @@
+/* ------------------ FONT FACE ------------------ */
+@font-face {
+    font-family: "span-font";
+    src: url(/assets/fonts/Poppins-BoldItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +23,7 @@ body {
 }
 
 .age-card {
+  font-weight: bold;
   background: hsl(0, 100%, 100%);
   padding: 40px;
   border-radius: 20px 20px 120px 20px;
@@ -83,10 +92,12 @@ body {
 }
 
 .results p {
-  font-size: 64px;
-  font-weight: 800;
+  font-family: "span-font", sans-serif;
+  font-size: 72px;
+  font-weight: 900;
   font-style: italic;
-  line-height: 1.2;
+  line-height: 1.03;
+  letter-spacing: -1.5px;
 }
 
 .results p span {
@@ -109,6 +120,7 @@ body {
 }
 
 @media (max-width: 600px) {
+
   .age-card {
     padding: 25px;
     border-radius: 20px 20px 80px 20px;
@@ -124,12 +136,16 @@ body {
   }
 
   .results p {
-    font-size: 48px;
+    font-size: 50px;
+    letter-spacing: -1.5px;
   }
 
   .submit-btn {
     width: 55px;
     height: 55px;
     bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
   }
 }
