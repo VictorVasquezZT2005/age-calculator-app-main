@@ -1,6 +1,12 @@
-/* ------------------ FONT FACE ------------------ */
 @font-face {
-    font-family: "span-font";
+    font-family: "font-body";
+    src: url(/assets/fonts/Poppins-Regular.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "font-results";
     src: url(/assets/fonts/Poppins-BoldItalic.ttf);
     font-weight: 900;
     font-style: italic;
@@ -13,7 +19,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'font-body', sans-serif;
   background-color: hsl(0, 0%, 94%);
   display: flex;
   justify-content: center;
@@ -92,7 +98,7 @@ body {
 }
 
 .results p {
-  font-family: "span-font", sans-serif;
+  font-family: "font-results", sans-serif;
   font-size: 72px;
   font-weight: 900;
   font-style: italic;
